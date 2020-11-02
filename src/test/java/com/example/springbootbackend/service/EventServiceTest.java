@@ -23,10 +23,10 @@ public class EventServiceTest {
     @Autowired
     private EventRepository eventRepository;
 
-//    @Test
-//    public void deleteAll(){
-//        eventRepository.deleteAll();
-//    }
+    @Test
+    public void deleteAll(){
+        eventRepository.deleteAll();
+    }
 
     @Test
     public void testInsertEvent() {

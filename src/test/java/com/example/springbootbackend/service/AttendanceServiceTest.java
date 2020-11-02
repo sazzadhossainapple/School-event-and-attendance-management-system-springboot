@@ -27,10 +27,10 @@ public class AttendanceServiceTest {
     @Autowired
     private AttendanceRepository attendanceRepository;
 
-//    @Test
-//    public void deleteAll(){
-//       attendanceRepository.deleteAll();
-//    }
+    @Test
+    public void deleteAll(){
+       attendanceRepository.deleteAll();
+    }
     @Test
     public void testInsertEvent() {
         Attendance attendance = new Attendance(1234,"Sazzad Hossain", LocalDate.of(2020,Month.FEBRUARY,23));
